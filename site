@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Čiščenje Klim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dobrodošli pri podjetju ČISTA KLIMA ČISTI ZRAK</h1>
+        <p>Vaš partner za čist in svež zrak.</p>
+    </header>
+    <section id="storitve">
+        <h2>Naše storitve</h2>
+        <ul>
+            <li>Redno čiščenje klim</li>
+            <li>Globinsko čiščenje klim</li>
+            <li>Preventivni pregledi</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Kontaktirajte nas: grcarsaso91@gmail.com | (00386) 051 265 631</p>
+        <a href="mailto:grcarsaso91@gmail.com?subject=Povpraševanje o čiščenju klim">Pošljite nam e-pošto</a>
+    </footer>
+</body>
+</html>
