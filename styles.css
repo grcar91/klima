@@ -1,0 +1,30 @@
+/* Osnovni stil */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Glava strani */
+header {
+    background: #4ebe79;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Sekcije strani */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Noga strani */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
