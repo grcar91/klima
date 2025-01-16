@@ -3,25 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Čiščenje Klim</title>
+    <title>Čista klima, čisti zrak</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
+<style>
+    h1 {
+        text-align: center;
+    }
+    section {
+        display: none;
+    }
+    section.active {
+        display: block;
+    }
+    nav button {
+        margin: 5px;
+        padding: 10px;
+        cursor: pointer;
+    }
+</style>
 <body>
     <header>
-        <h1>Dobrodošli pri podjetju ČISTA KLIMA ČISTI ZRAK</h1>
-        <p>Vaš partner za čist in svež zrak.</p>
+        <h1>ČISTA KLIMA, ČISTI ZRAK</h1>
+        <div class="language-switcher">
+            <img src="flags/Slovenia.png" alt="Slovenščina" class="language-icon" data-lang="sl">
+            <img src="flags/Kingdom.png" alt="English" class="language-icon" data-lang="en">
+            <img src="flags/Germany.png" alt="Deutsch" class="language-icon" data-lang="de">
+        </div>
+        <div class="contact-buttons">
+            <a href="mailto:gs91@gmail.com" class="contact-button">E-MAIL</a>
+            <a id="phone" href="tel:+38651245365631" class="contact-button">051 265 631</a>
+        </div>
     </header>
-    <section id="storitve">
-        <h2>Naše storitve</h2>
-        <ul>
-            <li>Redno čiščenje klim</li>
-            <li>Globinsko čiščenje klim</li>
-            <li>Preventivni pregledi</li>
-        </ul>
-    </section>
+    <nav>
+        <button id="buttonstoritve" data-page="storitve">Storitve</button>
+        <button id="buttonzakaj" data-page="zakaj">Zakaj očistiti klimo?</button>
+    </nav>
+    <main>
+        <section id="storitve" class="active">
+            <h2>Naše storitve</h2>
+            <ul>
+                <li>Redno čiščenje klim</li>
+                <li>Globinsko čiščenje klim</li>
+                <li>Preventivni pregledi</li>
+                <li>Popravila klimatskih naprav</li>
+            </p>
+            <img src="flags/dreamstime_xxl_321994818.jpg" alt="Čista klima" style="max-width: 100%; height:fit-content; margin: 20px 0;">
+            <p>
+            </ul>
+        </section>
+        <section id="zakaj">
+            <h2>Zakaj očistiti klimo?</h2>
+            <p>
+                1. Zdravje in kakovost zraka<br>
+               Odstranjevanje alergenov in mikrobov: Klimatske naprave lahko sčasoma nabirajo prah, cvetni prah, plesen in bakterije.
+               Ti mikrobi se lahko sprostijo v zrak, kar lahko povzroči alergije, draženje dihal in druge zdravstvene težave.
+               Preprečevanje neprijetnih vonjav: Nabiranje vlage in umazanije lahko povzroči neprijetne vonjave, ki jih naprava razširi po prostoru.
+               </p>
+                <img src="flags/dreamstime_xxl_283413279.jpg" alt="Čista klima" style="max-width: 100%; height:fit-content; margin: 20px 0;">
+                <p>
+                2. Učinkovitost naprave<br>
+                   Boljše hlajenje in gretje: Zamašeni filtri, rešetke in notranje komponente otežujejo pretok zraka, kar zmanjša učinkovitost naprave in podaljša čas, potreben za ohlajanje ali ogrevanje prostora.
+                   Nižja poraba energije: Redno čiščenje zagotavlja, da naprava deluje optimalno, kar pomeni manjšo porabo električne energije in nižje stroške
+                </p>
+                <img src="flags/dreamstime_xxl_285340644.jpg" alt="Čista klima" style="max-width: 100%; height:fit-content; margin: 20px 0;">
+                <p>
+                3. Dolga življenjska doba naprave<br>
+                   Preprečevanje poškodb: Nabiranje prahu in umazanije lahko povzroči prekomerno obrabo ključnih komponent, kot so ventilatorji in kompresorji. S čiščenjem zmanjšamo tveganje za draga popravila ali zamenjavo naprave.
+                   Ohranjanje garancije: Veliko proizvajalcev zahteva redno vzdrževanje, da garancija na napravo ostane veljavna.
+                </p>
+                <img src="flags/DALL·E 2025-01-04 09.22.29 - A realistic close-up of a single dirty air conditioning unit. The unit is visibly dusty and grimy, with dark stains around the vents and buildup on th.webp" alt="Čista klima" style="max-width: 100%; height:fit-content; margin: 20px 0;">
+                <p>
+                   Za strokovno čiščenje in vzdrževanje nas kontaktirajte. Z veseljem vam pomagamo!<br>
+            </p>
+        </section>
+    </main>
     <footer>
-        <p>Kontaktirajte nas: grcarsaso91@gmail.com | (00386) 051 265 631</p>
-        <a href="mailto:grcarsaso91@gmail.com?subject=Povpraševanje o čiščenju klim">Pošljite nam e-pošto</a>
+        <p>&copy; 2025 Čista klima</p>
     </footer>
 </body>
 </html>
